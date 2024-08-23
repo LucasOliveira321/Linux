@@ -21,7 +21,7 @@ ls * - Lista todos os arquivos de todos os diretórios;
 
 * "-q" -> Vem de quiet, utilizado para deixar o comando "quieto", sem escrever tudo o que está sendo feito;
 
-* "echo" -> repete uma mensagem no terminaal. Exemplo: echo "Bem vindo!", retorna Bem vindo!;
+* "echo" -> repete uma mensagem no terminal. Exemplo: echo "Bem vindo!", retorna Bem vindo!;
 
 * ">" -> Redirecionar a saída para algum lugar. Exemplo: echo "Bem vindo!" > bemVindo.txt, este comando vai criar um arquivo .txt no seu diretório com um texto escrito "Bem vindo!";
 
@@ -62,3 +62,9 @@ head -n 3 texto.txt - Parar trazer 3 linhas ou quantas linhas quiser apenas alte
 * "tail" - Tras as ultimas linhas de um documento. Exemplo:\
 tail texto.txt - Puxa as 10 ultimas linhas do documento;\
 tail -n 3 texto.txt - Parar trazer 3 ultimas linhas ou quantas linhas quiser apenas alterar o argumento numérico;
+
+* "top" -> Monitorar os processos em execução;
+
+# Guias para linux em português
+
+* https://www.guiafoca.org/#download 
